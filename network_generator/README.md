@@ -45,5 +45,5 @@
 
   Creates a network with three endpoints, ```alpha```, ```beta```, and ```charlie```, which are instantiated using the ```submittyrpi/csci4510:default``` container image, and which have 1 port in the resultant ```knownhost_tcp.txt``` and ```knownhost_udp.txt``` files.
 
-  __NOTE:__ Only a value of ```1``` is accepted at present by the network generator. Additional ports will be added in a future release.
+  __NOTE:__ Only a value of ```1``` for ```ports``` is accepted at present by the network generator. Additional ports will be added in a future release.
   
