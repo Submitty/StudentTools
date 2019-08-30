@@ -1,7 +1,7 @@
 #### This application is a simple network generator for use by students taking network programming courses.
 
 ##### To run:
-  0. Install and configure docker for your operating system. 
+  0. Install and configure docker for your operating system.     
      __NOTE:__ Make certain you are in the docker group on your machine
   1. Clone this repository to your local machine.
   2. Install this script's dependencies by running.
