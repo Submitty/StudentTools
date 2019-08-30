@@ -2,11 +2,11 @@
 
 ##### To run:
   0. Install and configure docker for your operating system.     
-     __NOTE:__ Make certain you are in the docker group on your machine
+     __NOTE:__ Make certain you are in the ```docker``` group on your machine.
   1. Clone this repository to your local machine.
-  2. Install this script's dependencies by running.
+  2. Install this script's dependencies by running:        
      ```pip3 install -r requirements.txt```
-  3. Configure a docker network within a ```network_config.json``` as described in the Network Configuration section
+  3. Configure a docker network within a ```network_config.json``` as described in the ```Network Configuration``` section
   4. Run the ```student_network_generator.py``` script, passing in the path to your ```network_config.json```.
   5. Run the commands output by the network generation script to be dropped into bash environments within your containers.
   6. Check regularly to see if new versions of this script have been released.
@@ -18,9 +18,9 @@
   1. ```solution_directory``` is a string, and must be a full path to the solution code that you want copied into your container.
 
   2. ```containers``` is an object, where:
-    a. Each key represents a unique container name which represents an object containing.
-      i.  An ```image``` field, which specifies the docker image to be used in container creation.
-      ii. A ```ports``` field, which contains a positive, nonzero integer number of ports to be assigned to the container.
+      1. Each key represents a unique container name which represents an object containing.
+          1.  An ```image``` field, which specifies the docker image to be used in container creation.
+          2. A ```ports``` field, which contains a positive, nonzero integer number of ports to be assigned to the container.
 
   Therefore, the following configuration:
   ```
