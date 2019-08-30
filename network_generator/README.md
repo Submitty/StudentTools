@@ -10,7 +10,7 @@
   4. Run the ```student_network_generator.py``` script, passing in the path to your ```network_config.json```.
   5. Run the commands output by the network generation script to be dropped into bash environments within your containers.
   6. Check regularly to see if new versions of this script have been released.
-  7. __NOTE:__ If you encounter any errors while using the script, please ask about them first on your course forum, then, if it is indeed an error in this script, make an issue in this repository.
+  7. __NOTE:__ If you encounter any errors while using the script, please ask about them first on your course forum, then, if it is indeed an error in this script, make an issue in the main  [Submitty Repository](https://github.com/Submitty/Submitty).
 
 
 ##### Network Configuration
