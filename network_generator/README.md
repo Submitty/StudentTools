@@ -1,4 +1,4 @@
-#### This application is a simple network generator for use by students taking network programming courses
+#### This application is a simple network generator for use by students taking network programming courses.
 
 ##### To run:
   0. Install and configure docker for your operating system. 
