@@ -20,7 +20,7 @@
   2. ```containers``` is an object, where:
       1. Each key represents a unique container name which represents an object containing.
           1.  An ```image``` field, which specifies the docker image to be used in container creation.
-          2. A ```ports``` field, which contains a positive, nonzero integer number of ports to be assigned to the container.
+          2. A ```number_of_ports``` field, which contains a positive, nonzero integer number of ports to be assigned to the container.
 
   Therefore, the following configuration:
   ```
@@ -29,15 +29,15 @@
     "containers" : {
       "alpha" : {
         "image" : "submittyrpi/csci4510:default",
-        "ports" : 1
+        "number_of_ports" : 1
       },
       "beta" : {
         "image" : "submittyrpi/csci4510:default",
-        "ports" : 1
+        "number_of_ports" : 1
       },
       "charlie" : {
         "image" : "submittyrpi/csci4510:default",
-        "ports" : 1
+        "number_of_ports" : 1
       }
     }
   }
